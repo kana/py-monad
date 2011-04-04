@@ -1,4 +1,4 @@
-TARGETS := monad.py
+TARGETS := monad.py maybe.py
 
 test: $(TARGETS:%.py=,%.ok)
 
